@@ -22,7 +22,7 @@ jobs:
           if [ ! -f "app/build.gradle.kts" ]; then
             pip install --quiet gdown
             gdown 1XxSLjxhxvQjXtElstJyEPusruYMK12NB -O /tmp/clipr.zip
-            unzip -o /tmp/clipr.zip -d .
+            unzip -o /tmp/clipr.zip -x ".github/workflows/*" -d .
             git config user.name "kaizen-flims"
             git config user.email "premdas7809@gmail.com"
             git add -A
