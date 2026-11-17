@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Four Flat Geometric Frame Corners within Adaptive Safe Zone (28..80) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M30,30 H46 V35 H35 V46 H30 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M62,30 H78 V46 H73 V35 H62 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M30,62 H35 V73 H46 V78 H30 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M73,62 H78 V78 H62 V73 H73 Z" />
+
+    <!-- Center Flat Play Triangle -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M46,42 L66,54 L46,66 Z" />
+</vector>

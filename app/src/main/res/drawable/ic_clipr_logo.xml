@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Top-Left Geometric Frame Corner (Signal Red #E53935) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M6,6 H18 V10 H10 V18 H6 Z" />
+
+    <!-- Top-Right Geometric Frame Corner (Signal Red #E53935) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M30,6 H42 V18 H38 V10 H30 Z" />
+
+    <!-- Bottom-Left Geometric Frame Corner (Signal Red #E53935) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M6,30 H10 V38 H18 V42 H6 Z" />
+
+    <!-- Bottom-Right Geometric Frame Corner (Signal Red #E53935) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M38,30 H42 V42 H30 V38 H38 Z" />
+
+    <!-- Simple Geometric Play Triangle in Center (Porcelain White #F5F5F5) -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M19,16 L33,24 L19,32 Z" />
+</vector>

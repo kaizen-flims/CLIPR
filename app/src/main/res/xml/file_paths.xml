@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="exported_shorts"
+        path="exports/" />
+    <cache-path
+        name="working_cache"
+        path="clipr_work/" />
+</paths>
